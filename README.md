@@ -11,6 +11,9 @@ git config  user.name "abc"
 git config user.email "abc@11.com"
 # 可以查查起效没
 git config --list
+
+git add .
+git commit -m "git 多个远程分支配置说明"
 ```
 
 #### 项目多个远程库配置
@@ -20,6 +23,7 @@ git config --list
 以本项目为例，在gitee上创建一个空仓库https://gitee.com/hyx-work/git-multi-remote.git
 
 ```bash
+git remote add origin https://gitee.com/hyx-work/git-multi-remote.git
 git remote add github https://github.com/hyx-work/git-multi-remote.git
 ```
 
@@ -27,7 +31,11 @@ git remote add github https://github.com/hyx-work/git-multi-remote.git
 
 ![remote-v](./remote-v.png)
 
+
+
 #### 推送到远程仓库
+
+
 
 * gitee
 
